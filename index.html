@@ -9,163 +9,189 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="modern-normalize-main/modern-normalize.css" />
+    <link rel="stylesheet" href="modern-normalize/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
-      <nav class="default-list">
-        <a href="./index.html" class="logo link"
-          >Web<span class="logo-two">Studio</span></a
-        >
-        <ul class="default list">
-          <li class="default-list">
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="default-list">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="header-link link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address list">
-        <ul class="list">
-          <li class="default-list">
-            <a href="mailto:info@devstudio.com" class="contact-value link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="default-list">
-            <a href="tel:+110001111111" class="contact-value link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container top">
+        <nav class="default-list navigation">
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo-two">Studio</span></a
+          >
+          <ul class="menu list">
+            <li class="default-list">
+              <a class="menu-item link" href="./index.html">Studio</a>
+            </li>
+            <li class="default-list">
+              <a class="menu-item link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="default-list">
+              <a class="menu-item link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address list">
+          <ul class="address-list">
+            <li class="default-list">
+              <a href="mailto:info@devstudio.com" class="contact-value link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="default-list">
+              <a href="tel:+110001111111" class="contact-value link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- first section here-->
-      <section class="section-first default">
-        <h1 class="section-first-text default">
-          Effective Solutions for Your Business
-        </h1>
-        <button class="section-first-button default" type="button">
-          Order Service
-        </button>
+      <section class="main default">
+        <div class="container">
+          <h1 class="main-header default">
+            Effective Solutions for Your Business
+          </h1>
+          <button class="main-button default" type="button">
+            Order Service
+          </button>
+        </div>
       </section>
       <!-- second section here-->
-      <section class="default-list">
-        <h2 class="" hidden>Core Values</h2>
-        <ul class="default list">
-          <li>
-            <h3 class="section-two-header default">Strategy</h3>
-            <p class="section-two-p default">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="section-two-header default">Punctuality</h3>
-            <p class="section-two-p default">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="section-two-header default">Diligence</h3>
-            <p class="section-two-p default">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="section-two-header default">Technologies</h3>
-            <p class="section-two-p default">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+      <section class="core default-list">
+        <div class="container">
+          <h2 class="visually-hidden">Core Values</h2>
+          <ul class="core-ul list">
+            <li class="core-li">
+              <h3 class="core-header default">Strategy</h3>
+              <p class="core-p default">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="core-li">
+              <h3 class="core-header default">Punctuality</h3>
+              <p class="core-p default">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="core-li">
+              <h3 class="core-header default">Diligence</h3>
+              <p class="core-p default">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="core-li">
+              <h3 class="core-header default">Technologies</h3>
+              <p class="core-p default">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- third section here-->
-      <section>
-        <h2 class="section-third-header default">What are we doing</h2>
-        <ul class="default list">
-          <li>
-            <img
-              src="./images/img_main0.jpg"
-              alt="Desktop computer showing reports"
-              width="360"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/img_main1.jpg"
-              alt="Mobile phone showing messaging app"
-              width="360"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/img_main2.jpg"
-              alt="Mobile phone showing some post from website"
-              width="360"
-            />
-          </li>
-        </ul>
+      <section class="product">
+        <div class="container">
+          <h2 class="product-header default">What are we doing</h2>
+          <ul class="product-ul list">
+            <li class="product-li">
+              <img
+                src="./images/img_main0.jpg"
+                alt="Desktop computer showing reports"
+                width="360"
+              />
+            </li>
+            <li class="product-li">
+              <img
+                src="./images/img_main1.jpg"
+                alt="Mobile phone showing messaging app"
+                width="360"
+              />
+            </li>
+            <li class="product-li">
+              <img
+                src="./images/img_main2.jpg"
+                alt="Mobile phone showing some post from website"
+                width="360"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- fourt section here-->
-      <section class="section-fourth default">
-        <h2 class="section-fourth-header default">Our Team</h2>
-        <ul class="default list">
-          <li class="section-fourth-list list">
-            <img
-              src="./images/img0.jpg"
-              alt="Profile photo of Mark Guerrero the Product Designer"
-              width="264"
-            />
-            <h3 class="section-fourth-profile-header default">Mark Guerrero</h3>
-            <p class="section-fourth-p default">Product Designer</p>
-          </li>
-          <li class="section-fourth-list list">
-            <img
-              src="./images/img1.jpg"
-              alt="Profile photo of Tom Ford the Frontend Developer"
-              width="264"
-            />
-            <h3 class="section-fourth-profile-header default">Tom Ford</h3>
-            <p class="section-fourth-p default">Frontend Developer</p>
-          </li>
-          <li class="section-fourth-list list">
-            <img
-              src="./images/img2.jpg"
-              alt="Profile photo of Camila Garcia the Marketing"
-              width="264"
-            />
-            <h3 class="section-fourth-profile-header default">Camila Garcia</h3>
-            <p class="section-fourth-p default">Marketing</p>
-          </li>
-          <li class="section-fourth-list list">
-            <img
-              src="./images/img3.jpg"
-              alt="Profile photo of Daniel Wilson the UI Designer"
-              width="264"
-            />
-            <h3 class="section-fourth-profile-header default">Daniel Wilson</h3>
-            <p class="section-fourth-p default">UI Designer</p>
-          </li>
-        </ul>
+      <section class="team default">
+        <div class="container">
+          <h2 class="team-header default">Our Team</h2>
+          <ul class="team-ul list">
+            <li class="team-li list">
+              <img
+                class="team-image"
+                src="./images/img0.jpg"
+                alt="Profile photo of Mark Guerrero the Product Designer"
+                width="264"
+              />
+              <div class="team-details">
+                <h3 class="team-detail-header default">Mark Guerrero</h3>
+                <p class="team-detail-p default">Product Designer</p>
+              </div>
+            </li>
+            <li class="team-li list">
+              <img
+                class="team-image"
+                src="./images/img1.jpg"
+                alt="Profile photo of Tom Ford the Frontend Developer"
+                width="264"
+              />
+              <div class="team-details">
+                <h3 class="team-detail-header default">Tom Ford</h3>
+                <p class="team-detail-p default">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-li list">
+              <img
+                class="team-image"
+                src="./images/img2.jpg"
+                alt="Profile photo of Camila Garcia the Marketing"
+                width="264"
+              />
+              <div class="team-details">
+                <h3 class="team-detail-header default">Camila Garcia</h3>
+                <p class="team-detail-p default">Marketing</p>
+              </div>
+            </li>
+            <li class="team-li list">
+              <img
+                class="team-image"
+                src="./images/img3.jpg"
+                alt="Profile photo of Daniel Wilson the UI Designer"
+                width="264"
+              />
+              <div class="team-details">
+                <h3 class="team-detail-header default">Daniel Wilson</h3>
+                <p class="team-detail-p default">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html" class="logo footer-logo link"
-        >Web<span class="footer-studio">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo footer-logo link"
+          >Web<span class="footer-studio">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

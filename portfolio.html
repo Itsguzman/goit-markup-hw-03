@@ -9,189 +9,213 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="modern-normalize-main/modern-normalize.css" />
+    <link rel="stylesheet" href="modern-normalize/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <header class="header">
-      <nav class="default-list">
-        <a href="./index.html" class="logo link"
-          >Web<span class="logo-two">Studio</span></a
-        >
-        <ul class="default list">
-          <li class="default-list">
-            <a class="header-link link" href="./index.html">Studio</a>
-          </li>
-          <li class="default-list">
-            <a class="header-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="header-link link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address list">
-        <ul class="list">
-          <li class="default-list">
-            <a href="mailto:info@devstudio.com" class="contact-value link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="default-list">
-            <a href="tel:+110001111111" class="contact-value link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container top">
+        <nav class="default-list navigation">
+          <a href="./index.html" class="logo link"
+            >Web<span class="logo-two">Studio</span></a
+          >
+          <ul class="menu list">
+            <li class="default-list">
+              <a class="menu-item link" href="./index.html">Studio</a>
+            </li>
+            <li class="default-list">
+              <a class="menu-item link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="default-list">
+              <a class="menu-item link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address list">
+          <ul class="address-list">
+            <li class="default-list">
+              <a href="mailto:info@devstudio.com" class="contact-value link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="default-list">
+              <a href="tel:+110001111111" class="contact-value link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <section>
-        <h1 class="portfolio-one-header" hidden>Portfolio</h1>
+      <section class="portfolio">
+        <div class="container">
+          <h1 class="visually-hidden">Portfolio</h1>
 
-        <ul class="default list">
-          <li>
-            <button class="portfolio-one-button default" type="button">
-              All
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-one-button default" type="button">
-              Web Site
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-one-button default" type="button">
-              App
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-one-button default" type="button">
-              Design
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-one-button default" type="button">
-              Marketing
-            </button>
-          </li>
-        </ul>
-        <ul class="default list">
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/bank.jpg"
-                alt="Mobile interface concept for a bank"
-                width="360"
-              />
-              <h2 class="portfolio-two-header default">
-                Banking App Interface Concept
-              </h2>
-              <p class="portfolio-two-paragraph default">App</p>
-            </a>
-          </li>
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/cashlesss.jpg"
-                alt="Scanning QR code for cashless payment"
-                width="360"
-              />
-              <h2 class="portfolio-two-header default">Cashless Payment</h2>
-              <p class="portfolio-two-paragraph default">Marketing</p>
-            </a>
-          </li>
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/meditation.jpg"
-                alt="Laptop and Mobile Phone showing website"
-                width="360"
-              />
-
-              <h2 class="portfolio-two-header default">Meditation App</h2>
-              <p class="portfolio-two-paragraph default">App</p>
-            </a>
-          </li>
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/taxi.jpg"
-                alt="showing someone is driving a car"
-                width="360"
-              />
-              <h2 class="portfolio-two-header default">Taxi Service</h2>
-              <p class="portfolio-two-paragraph default">Marketing</p>
-            </a>
-          </li>
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/screen.jpg"
-                alt="Five different mobile phone wallpaper"
-                width="360"
-              />
-              <h2 class="portfolio-two-header default">Screen Illustrations</h2>
-              <p class="portfolio-two-paragraph default">Design</p>
-            </a>
-          </li>
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/course.jpg"
-                alt="Woman enjoying using its mobile phone"
-                width="360"
-              />
-              <h2 class="portfolio-two-header default">Online Courses</h2>
-              <p class="portfolio-two-paragraph default">Marketing</p>
-            </a>
-          </li>
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/stories.jpg"
-                alt="Concept layout for Instagram stories"
-                width="360"
-              />
-              <h2 class="portfolio-two-header default">
-                Instagram Stories Concept
-              </h2>
-              <p class="portfolio-two-paragraph default">Design</p>
-            </a>
-          </li>
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/food.jpg"
-                alt="Someone carrying organic groceries in eco bag"
-                width="360"
-              />
-              <h2 class="portfolio-two-header default">Organic Food</h2>
-              <p class="portfolio-two-paragraph default">Web Site</p>
-            </a>
-          </li>
-          <li class="cards">
-            <a class="link" href="">
-              <img
-                src="./images/coffee.jpg"
-                alt="Pouring creamer o milk into a coffee"
-                width="360"
-              />
-              <h2 class="portfolio-two-header default">Fresh Coffee</h2>
-              <p class="portfolio-two-paragraph default">Web Site</p>
-            </a>
-          </li>
-        </ul>
+          <ul class="portfolio-ul list">
+            <li class="portfolio-li">
+              <button class="portfolio-button default" type="button">
+                All
+              </button>
+            </li>
+            <li class="portfolio-li">
+              <button class="portfolio-button default" type="button">
+                Web Site
+              </button>
+            </li>
+            <li class="portfolio-li">
+              <button class="portfolio-button default" type="button">
+                App
+              </button>
+            </li>
+            <li class="portfolio-li">
+              <button class="portfolio-button default" type="button">
+                Design
+              </button>
+            </li>
+            <li class="portfolio-li">
+              <button class="portfolio-button default" type="button">
+                Marketing
+              </button>
+            </li>
+          </ul>
+          <ul class="cards list">
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/bank.jpg"
+                  alt="Mobile interface concept for a bank"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">
+                    Banking App Interface Concept
+                  </h2>
+                  <p class="cards-paragraph default">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/cashlesss.jpg"
+                  alt="Scanning QR code for cashless payment"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">Cashless Payment</h2>
+                  <p class="cards-paragraph default">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/meditation.jpg"
+                  alt="Laptop and Mobile Phone showing website"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">Meditation App</h2>
+                  <p class="cards-paragraph default">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/taxi.jpg"
+                  alt="showing someone is driving a car"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">Taxi Service</h2>
+                  <p class="cards-paragraph default">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/screen.jpg"
+                  alt="Five different mobile phone wallpaper"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">Screen Illustrations</h2>
+                  <p class="cards-paragraph default">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/course.jpg"
+                  alt="Woman enjoying using its mobile phone"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">Online Courses</h2>
+                  <p class="cards-paragraph default">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/stories.jpg"
+                  alt="Concept layout for Instagram stories"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">
+                    Instagram Stories Concept
+                  </h2>
+                  <p class="cards-paragraph default">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/food.jpg"
+                  alt="Someone carrying organic groceries in eco bag"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">Organic Food</h2>
+                  <p class="cards-paragraph default">Web Site</p>
+                </div>
+              </a>
+            </li>
+            <li class="cards-li">
+              <a class="link" href="">
+                <img
+                  src="./images/coffee.jpg"
+                  alt="Pouring creamer o milk into a coffee"
+                  width="360"
+                />
+                <div class="cards-detail">
+                  <h2 class="cards-header default">Fresh Coffee</h2>
+                  <p class="cards-paragraph default">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-
     <footer class="footer">
-      <a href="./index.html" class="logo footer-logo link"
-        >Web<span class="footer-studio">Studio</span></a
-      >
-      <p class="footer-text">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="logo footer-logo link"
+          >Web<span class="footer-studio">Studio</span></a
+        >
+        <p class="footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
