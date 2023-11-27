@@ -13,6 +13,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: var(--white-color);
+  margin: 0px;
 }
 
 img {
@@ -20,7 +21,7 @@ img {
 }
 .container {
   width: 1158px;
-  margin: 0;
+  margin: auto;
   padding: 0 15px 0 15px;
 }
 
@@ -53,15 +54,6 @@ img {
   margin-right: 76px;
 }
 
-.menu-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5em;
-  letter-spacing: 0.02em;
-  color: var(--brand-color);
-  padding: 24px 0 24px;
-}
-
 .logo-two {
   color: var(--brand-color);
 }
@@ -69,7 +61,15 @@ img {
 .menu {
   display: flex;
   gap: 40px;
-  margin-right: 40px;
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+  padding: 24px 0 24px;
 }
 
 .default-list,
@@ -99,11 +99,7 @@ img {
 .address-list {
   list-style: none;
   display: flex;
-  margin-right: 40px;
-}
-
-.address-list:last-child {
-  margin-right: 0px;
+  gap: 40px;
 }
 
 .contact-value {
@@ -173,9 +169,11 @@ img {
 
 .core-ul {
   display: flex;
+  gap: 24px;
 }
 
 .core-li {
+  text-align: left;
   margin-right: 24px;
   width: calc((100% - 3 * 24px) / 4);
 }
@@ -219,11 +217,12 @@ img {
 
 .product-ul {
   display: flex;
+  gap: 24px;
 }
 
 .product-li {
   margin-right: 24px;
-  flex-basis: calc((100% - 3 * 16px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .team {
@@ -233,11 +232,14 @@ img {
 
 .team-ul {
   display: flex;
+  gap: 24px;
 }
 
 .team-li {
   background-color: var(--white-color);
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: (0px 0px 4px 4px);
 }
 
 .team-image {
@@ -284,6 +286,8 @@ img {
 .portfolio-ul {
   display: flex;
   justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .portfolio-li {
@@ -313,6 +317,7 @@ img {
   background-color: var(--click-color);
   cursor: pointer;
   border: var(--button-hover);
+  border-radius: 4px;
 }
 
 .cards {
