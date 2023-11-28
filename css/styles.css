@@ -171,10 +171,6 @@ img {
   background-color: var(--click-color);
 }
 
-.core {
-  padding: 120px 0 120px;
-}
-
 .core-ul,
 .product-ul,
 .team-ul {
@@ -185,9 +181,13 @@ img {
   gap: 24px;
 }
 
+.core {
+  padding: 120px 0 120px;
+}
+
 .core-li {
-  width: calc((100% - 72px) / 4);
   margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .core-li li:last-child {
@@ -344,8 +344,8 @@ img {
 
 .cards-li {
   text-align: none;
-  width: calc((100% - 40px) / 3);
   border-bottom: 32px;
+  width: calc((100% - 40px) / 3);
 }
 
 .cards-detail {
