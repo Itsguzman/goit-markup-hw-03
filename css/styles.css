@@ -20,6 +20,17 @@ img {
   display: block;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 .container {
   width: 1158px;
   margin: auto;
@@ -164,12 +175,19 @@ img {
 .team-ul {
   display: flex;
   gap: 24px;
+  list-style: none;
+  padding: 0;
 }
 
 .core-li {
   text-align: left;
   margin-right: 24px;
-  flex-basis: calc((100% - 72px) / 4);
+  /* flex-basis: calc((100% - 72px) / 4); */
+  width: calc((100% - 72px) / 4);
+}
+
+.core-li li:last-child {
+  margin-right: 0;
 }
 
 .core-header,
@@ -214,6 +232,10 @@ img {
   width: calc((100% - 48px) / 3);
 }
 
+.product-li li:last-child {
+  margin-right: 0;
+}
+
 .team {
   background-color: var(--background-color);
   padding: 120px 0 120px;
@@ -222,8 +244,11 @@ img {
 .team-li {
   background-color: var(--white-color);
   margin-right: 24px;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-li li:last-child {
+  margin-right: 0;
 }
 
 .team-image {
@@ -314,7 +339,7 @@ img {
 .cards-li {
   text-align: none;
   border-bottom: 32px;
-  width: calc((100% - 40px) / 3);
+  /* width: calc((100% - 40px) / 3); */
 }
 
 .cards-detail {
