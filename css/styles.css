@@ -341,10 +341,6 @@ img {
   row-gap: 48px;
 }
 
-.cards-li {
-  width: calc((100% - 48px) / 3);
-}
-
 .cards li:nth-child(3n) {
   margin-right: 0;
   margin-bottom: 0;
