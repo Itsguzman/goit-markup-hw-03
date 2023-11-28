@@ -345,7 +345,7 @@ img {
 .cards-li {
   text-align: none;
   border-bottom: 32px;
-  width: calc((100% - 40px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .cards-detail {
