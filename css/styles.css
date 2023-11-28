@@ -186,7 +186,6 @@ img {
 }
 
 .core-li {
-  margin-right: 24px;
   width: calc((100% - 72px) / 4);
 }
 
@@ -343,8 +342,6 @@ img {
 }
 
 .cards-li {
-  text-align: none;
-  border-bottom: 32px;
   width: calc((100% - 48px) / 3);
 }
 
