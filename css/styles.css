@@ -25,10 +25,15 @@ img {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  outline: 0;
+  outline-offset: 0;
 }
 
 .container {
@@ -174,15 +179,13 @@ img {
 .product-ul,
 .team-ul {
   display: flex;
-  gap: 24px;
+  margin-right: 24px;
   list-style: none;
   padding: 0;
 }
 
 .core-li {
-  text-align: left;
   margin-right: 24px;
-  /* flex-basis: calc((100% - 72px) / 4); */
   width: calc((100% - 72px) / 4);
 }
 
@@ -243,8 +246,9 @@ img {
 
 .team-li {
   background-color: var(--white-color);
-  margin-right: 24px;
   border-radius: 0px 0px 4px 4px;
+  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .team-li li:last-child {
@@ -338,8 +342,8 @@ img {
 
 .cards-li {
   text-align: none;
+  width: calc((100% - 40px) / 3);
   border-bottom: 32px;
-  /* width: calc((100% - 40px) / 3); */
 }
 
 .cards-detail {
